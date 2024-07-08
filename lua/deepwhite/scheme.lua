@@ -411,6 +411,9 @@ function M.get_groups(c)
         SelectMode = { link = "VisualMode" },
         TerminalMode = { link = "NormalMode" },
         TerminalNormalMode = { link = "NormalMode" },
+
+        -- aerial.nvim
+        AerialLine = { link = "String" },
     }
 end
 
