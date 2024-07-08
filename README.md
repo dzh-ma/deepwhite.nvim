@@ -2,6 +2,8 @@
   <h2 align="center">DeepWhite</h2>
 </p>
 
+![screenshot](https://github.com/dzh-ma/deepwhite.nvim/assets/145275422/d9b6c410-c2d4-454f-a36a-7762581cecc5)
+
 ## About
 
 DeepWhite is a light colorscheme inspired by [flatwhite-syntax](https://github.com/biletskyy/flatwhite-syntax) and [elegant-emacs](https://github.com/rougier/elegant-emacs).
