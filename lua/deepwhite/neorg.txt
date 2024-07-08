@@ -1,0 +1,20 @@
+
+        -- neorg
+        -- markup
+        ["@neorg.markup.bold.norg"] = { link = "Constant", bold = true },
+        ["@neorg.markup.italic.norg"] = { link = "String", italic = true },
+        ["@neorg.markup.underline.norg"] = { link = "Constant", underline = true },
+        ["@neorg.markup.strikethrough.norg"] = { link = "Error", strikethrough = true, bold = true },
+        ["@neorg.markup.verbatim.norg"] = { link = "Statement" },
+        ["@neorg.markup.inline_math.norg"] = { fg = c.base0, c.light_red, italic = true },
+        --["@neorg.markup.subscript.norg"] = {},
+        --["@neorg.markup.variable.norg"] = {},
+        ["@neorg.markup.spoiler.norg"] = { bg = "#708090" },
+        -- quotes
+        -- ["@neorg.quotes.1.content.norg"] = {},
+        -- ["@neorg.quotes.2.content.norg"] = {},
+        -- ["@neorg.quotes.3.content.norg"] = {},
+        -- ["@neorg.quotes.4.content.norg"] = {},
+        -- ["@neorg.quotes.5.content.norg"] = {},
+        -- ["@neorg.quotes.6.content.norg"] = {},
+	}
