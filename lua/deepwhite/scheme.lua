@@ -205,7 +205,7 @@ function M.get_groups(c)
         ["@neorg.markup.strikethrough.norg"] = { fg = c.red, strikethrough = true },
         ["@neorg.markup.superscript.norg"] = { fg = c.orange, bg = c.light_orange },
         ["@neorg.markup.subscript.norg"] = { fg = c.purple, bg = c.light_purple },
-        ["@neorg.markup.variable.norg"] = { fg = c.base0, bg = c.light_green },
+        ["@neorg.markup.variable.norg"] = { fg = c.base0, bg = c.green },
         ["@neorg.markup.inline_math.norg"] = { fg = c.base0, bg = c.light_red },
         ["@neorg.markup.verbatim.norg"] = { fg = c.light_orange, bg = c.base3 },
         -- quotes
@@ -215,6 +215,12 @@ function M.get_groups(c)
         ["@neorg.quotes.4.content.norg"] = { fg = c.base0, bg = c.light_orange },
         ["@neorg.quotes.5.content.norg"] = { fg = c.base0, bg = c.light_purple },
         ["@neorg.quotes.6.content.norg"] = { fg = c.base0, bg = c.light_pink },
+        -- points
+        ["@neorg.lists.unordered.prefix.norg"] = { link = "Statement" },
+        ["@neorg.todo_items.undone.norg"] = { bg = c.light_red },
+        ["@neorg.todo_items.pending.norg"] = { bg = c.base5 },
+        ["@neorg.todo_items.on_hold.norg"] = { fg = c.base7, bg = c.base5 },
+        ["@neorg.todo_items.cancelled.norg"] = { fg = c.base3, bg = c.base5 },
 
         -- lsp
         DiagnosticError = { fg = c.red },
@@ -414,6 +420,14 @@ function M.get_groups(c)
 
         -- aerial.nvim
         AerialLine = { link = "String" },
+
+        -- gitsigns
+        ["GitSignsAdd"] = { fg = c.base0 },
+        ["GitSignsChange"] = { fg = c.base0 },
+        ["GitSignsDelete"] = { fg = c.base0 },
+        ["GitSignsTopdelete"] = { fg = c.base0 },
+        ["GitSignsChangedelete"] = { fg = c.base0 },
+        ["GitSignsUntracked"] = { fg = c.base0 },
     }
 end
 
