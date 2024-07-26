@@ -208,6 +208,8 @@ function M.get_groups(c)
         ["@neorg.markup.variable.norg"] = { fg = c.base0, bg = c.green },
         ["@neorg.markup.inline_math.norg"] = { fg = c.base0, bg = c.light_red },
         ["@neorg.markup.verbatim.norg"] = { fg = c.light_orange, bg = c.base3 },
+        ["@neorg.definitions.title.norg"] = { fg = c.red, bg = c.light_red, underline = true },
+        ["@neorg.definitions.prefix.norg"] = { bg = c.light_red },
         -- quotes
         ["@neorg.quotes.1.content.norg"] = { fg = c.base0, bg = c.light_green },
         ["@neorg.quotes.2.content.norg"] = { fg = c.base0, bg = c.light_blue },
